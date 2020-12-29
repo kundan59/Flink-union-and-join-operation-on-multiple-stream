@@ -1,11 +1,13 @@
 package com.knoldus;
 
 import java.util.Scanner;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * WindowExampleSelection gives user flexibility to select a Flink operation on multiple streams.
  */
-public final class WindowExampleSelection {
+public final class OperationSelection {
 
     public static void main(String[] args) throws Exception {
         System.out.println("--------------------------------------------------");
